@@ -1,0 +1,17 @@
+data_login 
+    login_user:string
+    login_password:string
+
+user_game
+    user_id:string (Parent Key)
+    user_name:string
+    user_password:string
+
+user_game_biodata
+    user_id:string (Parent Key)
+    user_gender:string
+    user_phone:bigint
+
+user_game_history
+    user_id:string (Parent Key)
+    user_point:integer
